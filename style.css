@@ -1,0 +1,24 @@
+body {
+	background-color: #e0e2e5;
+}
+
+.nav {
+	margin-top: 20px;
+	margin-right: 10px;
+	background-color: #e0e2e5;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+	background-image: url(images/alone-back-view-blonde-247195.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+}
+
+#homepageCarousel {
+	width: 960px;
+	height: 300px;
+	margin-top: 50px;
+	margin: auto;
+}
