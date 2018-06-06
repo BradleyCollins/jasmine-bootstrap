@@ -46,6 +46,14 @@ body {
 	padding-bottom: 40px;
 }
 
+#homeAbout .btn {
+    background-color: #6d0d6b;
+    color: #fff;
+}
+
+#homeAbout .btn:hover {
+    background-color: #4f094d;
+}
 
 #myFooter {
     background-color: #6d0d6b;
