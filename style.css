@@ -1,5 +1,5 @@
 body {
-	background-color: #e0e2e5;
+	/*background-color: #e0e2e5;*/
 }
 
 .nav {
@@ -12,7 +12,11 @@ body {
 	background-image: url(images/alone-back-view-blonde-247195.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 700px;
+	height: 600px;
+}
+
+.jumboText {
+    margin-top: 160px;
 }
 
 #homepageCarousel {
@@ -22,18 +26,29 @@ body {
 	margin: auto;
 }
 
-#homeAbout {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-/*#homeAboutImage img {
-	width: 50px;
-	height: 50px;
+/*#homeContent {
+    background-color: #6d0d6b;
+    color: white;
 }*/
 
+#homeContent h1 {
+    /*margin-left: 229px;
+    padding-top: 75px;*/
+}
+
+#homeContent p {
+    /*margin-left: 229px;
+    margin-right: 229px;*/
+}
+
+#homeAbout {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
 #myFooter {
-    background-color: #182c39;
+    background-color: #6d0d6b;
     color: white;
     padding-top: 20px;
 }
@@ -50,7 +65,7 @@ body {
 }
 
 #myFooter .footer-copyright {
-    background-color: #10222e;
+    background-color: #4f094d;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -199,5 +214,14 @@ body {
     }
     #myFooter .row {
         margin: 0;
+    }
+    #homepageCarousel {
+        display: none;
+    }
+    #homeContent {
+        padding-top: 40px;
+    }
+    #homeContent h1 {
+        font-size: 1.5em;
     }
 }
