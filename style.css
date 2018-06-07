@@ -4,8 +4,8 @@ body {
 
 .nav {
     background-color: #6d0d6b;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .nav-link {
@@ -20,13 +20,21 @@ body {
     background-color: #000;
 }*/
 
-.jumbotron {
+.jumboHome {
 	margin-bottom: 0px;
-	background-image: url(images/alone-back-view-blonde-247195.jpg);
+	background-image: url(images/homeBanner.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 600px;
 }
+
+.jumboCouples {
+    margin-bottom: 0px;
+    background-image: url(images/couples.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .jumboText {
     margin-top: 160px;
@@ -245,4 +253,7 @@ body {
     #homeContent h1 {
         font-size: 1.5em;
     }
+/*    .jumbotron {
+        background-size: contain !important;
+    }*/
 }
