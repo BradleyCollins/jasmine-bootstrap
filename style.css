@@ -39,9 +39,20 @@ body {
     background-repeat: no-repeat;
 }
 
+.jumboTrauma {
+    margin-bottom: 0px;
+    background-image: url(images/couples.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
 
 .jumboText {
     margin-top: 160px;
+}
+
+.jumboTextTrauma {
+    margin-top: 100px;
 }
 
 #homepageCarousel {
