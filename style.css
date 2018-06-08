@@ -24,10 +24,6 @@ body {
     color: #fff;
 }
 
-/*.active {
-    background-color: #000;
-}*/
-
 .jumboHome {
 	margin-bottom: 0px;
 	background-image: url(images/homeBanner.jpg);
@@ -55,21 +51,6 @@ body {
 	margin: auto;
 }
 
-/*#homeContent {
-    background-color: #6d0d6b;
-    color: white;
-}*/
-
-#homeContent h1 {
-    /*margin-left: 229px;
-    padding-top: 75px;*/
-}
-
-#homeContent p {
-    /*margin-left: 229px;
-    margin-right: 229px;*/
-}
-
 #homeAbout {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -86,6 +67,10 @@ body {
 
 .traumaAbout {
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#traumaPoints {
     padding-bottom: 50px;
 }
 
