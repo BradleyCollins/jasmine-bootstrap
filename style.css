@@ -16,6 +16,14 @@ body {
     color: #fff;
 }
 
+.dropdown-menu {
+    background-color: #4f094d;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
 /*.active {
     background-color: #000;
 }*/
@@ -74,6 +82,11 @@ body {
 
 #homeAbout .btn:hover {
     background-color: #4f094d;
+}
+
+.traumaAbout {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #myFooter {
