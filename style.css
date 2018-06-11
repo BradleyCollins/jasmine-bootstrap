@@ -2,10 +2,22 @@ body {
 	background-color: #e0e2e5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dosis', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+}
+
 .nav {
     background-color: #6d0d6b;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.nav-item {
+    font-family: 'Titillium Web', Georgia, Times, serif;
+    font-size: 18px;
 }
 
 .nav-link {
@@ -16,12 +28,21 @@ body {
     color: #fff;
 }
 
+.active {
+    background-color: #4f094d;
+    border-radius: 5px;
+}
+
 .dropdown-menu {
     background-color: #4f094d;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 .dropdown-item {
     color: #fff;
+    font-family: 'Titillium Web', Georgia, Times, serif;
 }
 
 .jumboHome {
@@ -41,7 +62,7 @@ body {
 
 .jumboTrauma {
     margin-bottom: 0px;
-    background-image: url(images/couples.png);
+    background-image: url(images/trauma_inf.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -262,6 +283,9 @@ body {
     #homeContent h1 {
         font-size: 1.5em;
     }
+/*    .jumboText {
+        color: #fff;
+    }*/
 /*    .jumbotron {
         background-size: contain !important;
     }*/
