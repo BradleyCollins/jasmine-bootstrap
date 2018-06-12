@@ -131,6 +131,12 @@ p, div {
     padding-bottom: 50px;
 }
 
+.pinContainer {
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #myFooter {
     background-color: #6d0d6b;
     color: white;
