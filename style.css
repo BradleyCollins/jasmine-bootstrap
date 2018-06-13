@@ -9,6 +9,7 @@ p, div {
     font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
 }
 
+/* Navigation CSS */
 .nav {
     background-color: #6d0d6b;
     padding-top: 15px;
@@ -45,6 +46,7 @@ p, div {
     font-family: 'Titillium Web', Georgia, Times, serif;
 }
 
+/* Jumbotron CSS all pages */
 .jumboHome {
 	margin-bottom: 0px;
 	background-image: url(images/homeBanner.jpg);
@@ -58,6 +60,7 @@ p, div {
     background-image: url(images/couples.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 400px;
 }
 
 .jumboTrauma {
@@ -73,6 +76,15 @@ p, div {
     background-image: url(images/contact_us.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 400px;
+}
+
+.jumboClinic {
+    margin-bottom: 0px;
+    background-image: url(images/clin-super.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 
 .jumboTextContact {
@@ -83,14 +95,12 @@ p, div {
     margin-top: 160px;
 }
 
-.jumboTextTrauma {
+.jumboTextGlobal {
     margin-top: 100px;
 }
 
-.jumboTextCouples {
-    margin-top: 100px;
-}
 
+/* Homepage CSS */
 #homepageCarousel {
 	width: 1115px;
 	padding-top: 50px;
@@ -118,6 +128,7 @@ p, div {
     margin-right: 10px;
 }
 
+/* Trauma Informed CSS */
 #traumaAbout {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -137,6 +148,7 @@ p, div {
     color: #fff;
 }
 
+/* Couples Therapy CSS */
 #couplesAbout {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -148,14 +160,13 @@ p, div {
     margin-right: auto;
 }
 
+/* Contact Page CSS */
 .contactText {
     margin-top: 50px;
     text-align: center;
 }
 
 .contactForm {
-/*    margin: 0 auto;
-    width: 100%;*/
     margin-bottom: 50px;
 }
 
@@ -175,6 +186,18 @@ p, div {
     background-color: #4f094d;
 }
 
+/* Clinical Supervision CSS */
+#clinicalContent {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#clinicalContent img {
+    padding-left: 15px;
+}
+
+
+/* Footer CSS */
 #myFooter {
     background-color: #6d0d6b;
     color: white;
@@ -339,6 +362,7 @@ p, div {
 	color: #FF8D00;
 }
 
+/* Responsive CSS */
 @media screen and (max-width: 767px) {
     #myFooter {
         text-align: center;
@@ -355,6 +379,10 @@ p, div {
     #homeContent h1 {
         font-size: 1.5em;
     }
+    #clinicalContent img {
+    height: 150px;
+    padding-left: 0px;
+}
 /*    .jumboText {
         color: #fff;
     }*/
