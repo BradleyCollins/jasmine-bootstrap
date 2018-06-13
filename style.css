@@ -68,6 +68,17 @@ p, div {
     height: 400px;
 }
 
+.jumboContact {
+    margin-bottom: 0px;
+    background-image: url(images/contact_us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumboTextContact {
+    color: #fff;
+}
+
 .jumboText {
     margin-top: 160px;
 }
@@ -135,6 +146,33 @@ p, div {
     padding-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.contactText {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contactForm {
+/*    margin: 0 auto;
+    width: 100%;*/
+    margin-bottom: 50px;
+}
+
+.centerForm {
+  left: 0;
+  right: 0;
+  margin: auto;  
+}
+
+.contactButton {
+    background-color: #6d0d6b;
+    color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.contactButton:hover {
+    background-color: #4f094d;
 }
 
 #myFooter {
