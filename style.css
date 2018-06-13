@@ -29,6 +29,10 @@ p, div {
     color: #fff;
 }
 
+.navEnd {
+    margin-right: 10px;
+}
+
 .active {
     background-color: #4f094d;
     border-radius: 5px;
