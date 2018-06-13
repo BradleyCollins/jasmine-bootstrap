@@ -87,6 +87,14 @@ p, div {
     height: 400px;
 }
 
+.jumboBlog {
+    margin-bottom: 0px;
+    background-image: url(images/blog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
 .jumboTextContact {
     color: #fff;
 }
