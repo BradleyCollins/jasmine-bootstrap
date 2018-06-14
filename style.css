@@ -140,7 +140,12 @@ hr {
     background-color: #4f094d;
 }
 
-.card {
+.blogCards {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-bottom: 50px;
+}
+
+.cardStyle {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     margin-right: 10px;
 }
@@ -218,6 +223,12 @@ hr {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+#blogStyle {
+    color: #fff;
+    background-color: #6d0d6b;
+}
+
 /* Footer CSS */
 #myFooter {
     background-color: #6d0d6b;
@@ -405,7 +416,7 @@ hr {
     padding-left: 0px;
     }
     iframe {
-        width: 300px;
+        width: 250px;
         height: 200px;
     }
 /*    .jumboText {
