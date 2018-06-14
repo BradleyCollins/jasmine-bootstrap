@@ -104,6 +104,14 @@ hr {
     height: 400px;
 }
 
+.jumboForever {
+    margin-bottom: 0px;
+    background-image: url(images/foreverfootprints.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
 .jumboTextContact {
     color: #fff;
 }
@@ -227,6 +235,21 @@ hr {
 #blogStyle {
     color: #fff;
     background-color: #6d0d6b;
+}
+
+/* Forever Footprints CSS */
+.footCard {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.footStyle {
+    margin-top: 50px;
+}
+
+.footAbout {
+    background-color: #fff;
 }
 
 /* Footer CSS */
