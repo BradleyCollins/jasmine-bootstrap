@@ -43,6 +43,10 @@ hr {
     border-radius: 5px;
 }
 
+.dropdown-item.active {
+    background-color: #6d0d6b;
+}
+
 .dropdown-menu {
     background-color: #4f094d;
     position: absolute;
@@ -107,6 +111,14 @@ hr {
 .jumboForever {
     margin-bottom: 0px;
     background-image: url(images/foreverfootprints.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.jumboService {
+    margin-bottom: 0px;
+    background-image: url(images/services.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -252,8 +264,21 @@ hr {
     background-color: #fff;
 }
 
+.supportText {
+    color: #fff;
+    background-color: #6d0d6b;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .footSignUp {
     margin-bottom: 50px;
+}
+
+/* Services Page CSS */
+.jumboService {
+
 }
 
 /* Footer CSS */
