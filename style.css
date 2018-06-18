@@ -283,6 +283,11 @@ hr {
 
 .serviceOpener {
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.servicesInfo {
+    margin-top: 50px;
 }
 
 /* Footer CSS */
