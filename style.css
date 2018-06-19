@@ -17,8 +17,8 @@ hr {
 /* Navigation CSS */
 .nav {
     background-color: #6d0d6b;
-    padding-top: 15px;
-    padding-bottom: 15px;
+/*    padding-top: 15px;
+    padding-bottom: 15px;*/
 }
 
 .nav-item {
@@ -57,6 +57,18 @@ hr {
 .dropdown-item {
     color: #fff;
     font-family: 'Titillium Web', Georgia, Times, serif;
+}
+
+.navbar {
+    background-color: #6d0d6b;
+}
+
+.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* Jumbotron CSS all pages */
