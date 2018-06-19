@@ -17,8 +17,6 @@ hr {
 /* Navigation CSS */
 .nav {
     background-color: #6d0d6b;
-/*    padding-top: 15px;
-    padding-bottom: 15px;*/
 }
 
 .nav-item {
@@ -32,10 +30,6 @@ hr {
 
 .nav-link:hover {
     color: #fff;
-}
-
-.navEnd {
-    margin-right: 10px;
 }
 
 .active {
@@ -52,6 +46,9 @@ hr {
     position: absolute;
     z-index: 1;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    left: auto;
+    right: 225px;
+    top: 50px;
 }
 
 .dropdown-item {
@@ -501,5 +498,5 @@ hr {
     }*/
 /*    .jumbotron {
         background-size: contain !important;
-    }*/
+    }
 }
