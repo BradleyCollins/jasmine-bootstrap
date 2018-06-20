@@ -493,10 +493,40 @@ hr {
     .footCard {
         width: 280px;
     }
-/*    .jumboText {
-        color: #fff;
-    }*/
-/*    .jumbotron {
-        background-size: contain !important;
+    .jumboHome {
+        background-image: url(images/home_banner_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
+    .jumboService {
+        background-image: url(images/services_banner_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .jumboForever {
+        background-image: url(images/foreverfootprints_banner_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .jumboClinic {
+        background-image: url(images/clinical_banner_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;  
+    }
+    .jumboTrauma {
+        background-image: url(images/trauma_banner_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .jumboContact {
+        background-image: url(images/contact_banner_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .jumboBlog {
+        background-image: url(images/blog_banner_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
 }
