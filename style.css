@@ -1,3 +1,7 @@
+$light-purple: #6d0d6b;
+$dark-purple: #4f094d;
+
+
 body {
 	background-color: #e0e2e5;
 }
@@ -16,7 +20,7 @@ hr {
 
 /* Navigation CSS */
 .nav {
-    background-color: #6d0d6b;
+    background-color: $light-purple;
 }
 
 .nav-item {
@@ -497,6 +501,13 @@ hr {
         background-image: url(images/home_banner_sm.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        height: 485px;
+    }
+    .jumboText {
+        margin-top: 0px;
+    }
+    .jumboText p {
+        visibility: hidden;
     }
     .jumboService {
         background-image: url(images/services_banner_sm.jpg);
@@ -512,6 +523,9 @@ hr {
         background-image: url(images/clinical_banner_sm.jpg);
         background-size: cover;
         background-repeat: no-repeat;  
+    }
+    #clinicalContent h1 {
+        font-size: 2.0rem;
     }
     .jumboTrauma {
         background-image: url(images/trauma_banner_sm.jpg);
